@@ -10,6 +10,7 @@ public class Main {
         int date[] = {31,28,31,30,31,30,31,31,30,31,30,31};
         int sum=0;
         if(m1==m2 && d1==d2){
+            else sum+=d2-d1;
             System.out.println(sum+1);
             System.exit(0);
         }
